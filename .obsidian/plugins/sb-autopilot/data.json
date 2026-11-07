@@ -1,0 +1,236 @@
+{
+  "folders": {
+    "inbox": "00_Inbox",
+    "daily": "01_Journal/Daily",
+    "weekly": "01_Journal/Weekly",
+    "monthly": "01_Journal/Monthly",
+    "yearly": "01_Journal/Yearly",
+    "meetings": "01_Journal/Meetings",
+    "projects": "03_Projects/Active",
+    "someday": "03_Projects/Someday",
+    "archive": "07_Archive",
+    "areas": "02_Areas",
+    "books": "04_Resources/Books",
+    "articles": "04_Resources/Articles",
+    "courses": "04_Resources/Courses",
+    "videos": "04_Resources/Videos-and-Podcasts",
+    "literature": "05_Notes/Literature",
+    "people": "06_People",
+    "permanent": "05_Notes/Permanent",
+    "fleeting": "05_Notes/Fleeting",
+    "questions": "05_Notes/Questions"
+  },
+  "templatesFolder": "08_Meta/Templates/Autopilot",
+  "ignoreFolders": [
+    "08_Meta",
+    "Habits"
+  ],
+  "formats": {
+    "daily": "YYYY-MM-DD",
+    "weekly": "gggg-[W]ww",
+    "monthly": "YYYY-MM",
+    "yearly": "YYYY"
+  },
+  "templateFiles": {
+    "daily": "08_Meta/Templates/T - Daily Note.md",
+    "weekly": "08_Meta/Templates/T - Weekly Review.md",
+    "monthly": "08_Meta/Templates/T - Monthly Review.md",
+    "yearly": "08_Meta/Templates/T - Yearly Review.md",
+    "meeting": "08_Meta/Templates/T - Meeting.md",
+    "project": "08_Meta/Templates/T - Project.md",
+    "area": "08_Meta/Templates/T - Area.md",
+    "book": "08_Meta/Templates/T - Book Note.md",
+    "literature": "08_Meta/Templates/T - Literature Note.md",
+    "person": "08_Meta/Templates/T - Person.md",
+    "permanent": "08_Meta/Templates/T - Permanent Note.md",
+    "fleeting": "08_Meta/Templates/T - Fleeting Note.md",
+    "question": "08_Meta/Templates/T - Question.md"
+  },
+  "categories": [
+    {
+      "key": "decision",
+      "label": "Decision",
+      "folder": "01_Journal/Decisions",
+      "template": "08_Meta/Templates/T - Decision Log.md",
+      "group": "Journal",
+      "dated": true,
+      "when": "A choice you made and why, so future-you can learn from it."
+    },
+    {
+      "key": "skill",
+      "label": "Skill log",
+      "folder": "04_Resources/Skills",
+      "template": "08_Meta/Templates/T - Skill Learning Log.md",
+      "group": "Source",
+      "dated": false,
+      "when": "Your practice log while learning one skill."
+    },
+    {
+      "key": "mental-model",
+      "label": "Mental model",
+      "folder": "04_Resources/Mental-Models",
+      "template": "",
+      "group": "Source",
+      "dated": false,
+      "when": "A thinking tool (e.g. second-order thinking), explained in your words."
+    },
+    {
+      "key": "cheatsheet",
+      "label": "Cheatsheet",
+      "folder": "04_Resources/Cheatsheets",
+      "template": "",
+      "group": "Source",
+      "dated": false,
+      "when": "Quick reference you look things up in."
+    },
+    {
+      "key": "code",
+      "label": "Code & tech",
+      "folder": "04_Resources/Code-and-Tech",
+      "template": "",
+      "group": "Source",
+      "dated": false,
+      "when": "Snippets, setups and technical how-tos."
+    },
+    {
+      "key": "quote",
+      "label": "Quote",
+      "folder": "04_Resources/Quotes",
+      "template": "",
+      "group": "Source",
+      "dated": false,
+      "when": "A quote worth keeping, with who said it."
+    }
+  ],
+  "ribbon": {
+    "newNote": true,
+    "quickCapture": true,
+    "board": true,
+    "projectHub": true,
+    "habits": true
+  },
+  "features": {
+    "quickCapture": true,
+    "board": true,
+    "projectHub": true,
+    "habits": true,
+    "habitsBridge": true
+  },
+  "onboarded": true,
+  "habits": [
+    {
+      "key": "sleep_by_11",
+      "label": "Sleep by 11pm",
+      "type": "check",
+      "unit": "",
+      "area": "Health and Fitness",
+      "goal": {
+        "per": "day",
+        "min": 1
+      }
+    },
+    {
+      "key": "strength",
+      "label": "Strength training",
+      "type": "check",
+      "unit": "",
+      "area": "Health and Fitness",
+      "goal": {
+        "per": "week",
+        "times": 3
+      }
+    },
+    {
+      "key": "steps",
+      "label": "Steps",
+      "type": "number",
+      "unit": "steps",
+      "area": "Health and Fitness",
+      "goal": {
+        "per": "day",
+        "min": 8000
+      }
+    },
+    {
+      "key": "walk_km",
+      "label": "Walking",
+      "type": "number",
+      "unit": "km",
+      "area": "Health and Fitness"
+    },
+    {
+      "key": "water_l",
+      "label": "Water",
+      "type": "number",
+      "unit": "L",
+      "area": "Health and Fitness",
+      "goal": {
+        "per": "day",
+        "min": 3
+      }
+    },
+    {
+      "key": "reading_min",
+      "label": "Reading",
+      "type": "number",
+      "unit": "min",
+      "area": "Mind and Learning",
+      "goal": {
+        "per": "day",
+        "min": 30
+      }
+    },
+    {
+      "key": "permanent_note",
+      "label": "1 permanent note",
+      "type": "check",
+      "unit": "",
+      "area": "Mind and Learning",
+      "goal": {
+        "per": "day",
+        "min": 1
+      },
+      "autoFromKind": "permanent"
+    },
+    {
+      "key": "mood",
+      "label": "Mood",
+      "type": "scale",
+      "unit": "/5",
+      "area": "Philosophy and Self"
+    },
+    {
+      "key": "energy",
+      "label": "Energy",
+      "type": "scale",
+      "unit": "/5",
+      "area": "Health and Fitness"
+    }
+  ],
+  "habitsImported": false,
+  "walkSpeedKmh": 5,
+  "doneDays": 14,
+  "carryOver": true,
+  "carryOverDays": 7,
+  "lastCarryOver": "2026-11-07",
+  "startupDelayMs": 0,
+  "followFolderRenames": true,
+  "prepareNewNotes": true,
+  "captureDefault": "note",
+  "templatesDetected": true,
+  "openDailyOnStartup": true,
+  "createPeriodicOnStartup": true,
+  "logCreationsInDaily": true,
+  "dailyTasksHeading": "Tasks, Other tasks",
+  "dailyLogHeading": "Log",
+  "askTypeOnNewNote": true,
+  "autoMove": "everywhere",
+  "boardGroupBy": "status",
+  "createMissingPeople": true,
+  "staleInboxDays": 7,
+  "taskBackend": "inline",
+  "taskNotes": {
+    "folder": "TaskNotes/Tasks",
+    "tag": "task"
+  }
+}

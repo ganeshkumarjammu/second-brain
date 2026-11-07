@@ -26,7 +26,7 @@ That's why a book about health goes in `04_Resources/Books` (it *is* a book) wit
 | 7 | An open question? | **Question** | `05_Notes/Questions` |
 | — | Anything else / not sure | **Fleeting / Inbox** | `05_Notes/Fleeting` / `00_Inbox` |
 
-The plugin asks you these questions: **Ctrl+P → "Second Brain: Where does this go?"**
+The plugin asks you these questions: **Ctrl+P → "SB Autopilot: Where does this go?"**
 
 ---
 
@@ -43,16 +43,24 @@ The plugin asks you these questions: **Ctrl+P → "Second Brain: Where does this
 Meetings are **events**, so they're filed by date in `01_Journal/Meetings/<year>`. You never have to choose between the project folder and the person folder. The meeting links to `project`, `area` and `attendees`, and each of those pages lists its meetings automatically. Today's daily note gets a log line for it too.
 
 ## Books
-`04_Resources/Books/Book - Title - Author.md`, with `status: reading | done`, `area:` and a "Promote to Permanent notes" section. The Reading dashboard picks them up.
+`04_Resources/Books/Book - Title - Author.md`, with `status: to-read | reading | finished | abandoned`, `format`, `rating` (1–5), `area:` and `project:`. The template follows your reading: *before* (why read it) → *during* (reading log, highlights, quotes) → *after* (3 sentences, verdict, what you'll DO). The Reading dashboard picks them up, including an "Abandoned" list.
+
+## Habits
+Your habits are the **properties of your daily note**: `prayer: false` is a tick, `book_pages: 0` is a number, `walk_km: 0` is a walk. Fill them in the note's Properties, in the ✅ Habits view, or with ⚡ `h gayatri 108` / `w 45m`. Streaks, weekly goals, 30-day grids and the walking chart are worked out for you. With the built-in **Habits dashboard** on, its views are used everywhere: the daily dashboard in today's note, the habits table in weekly reviews, and the heatmap per area on area pages.
+- New habit: add the property to your daily template, then Ctrl+P → **Import habits from my daily template…**
+- Empty properties (`wake_time:`): pick Tick, Number or Scale in that import screen.
+- **Daily progress dashboard (built in):** switch on **📊 Habits dashboard** in SB Autopilot's Features, with no extra plugin to install. You get the Habits dashboard, panel, heatmaps and charts. One note per habit lives in `Habits/`, kept in sync both ways with your daily note properties.
 
 ---
 
 ## Your own categories
-Decision, Skill log, Mental model, Cheatsheet, Code & tech and Quote are types too, set in **Settings → Second Brain Autopilot → Your categories**. Each has its own folder and template. You can add more (e.g. `recipe` → `04_Resources/Recipes`). Folder renames are followed automatically.
+Decision, Skill log, Mental model, Cheatsheet, Code & tech and Quote are types too, set in **Settings → SB Autopilot → Your categories**. Each has its own folder and template. You can add more (e.g. `recipe` → `04_Resources/Recipes`). Folder renames are followed automatically.
 
-## Plugin cheat-sheet (Ctrl+P → "Second Brain")
+## Plugin cheat-sheet (Ctrl+P → "SB Autopilot")
 
-**Left ribbon icons** (each can be hidden in settings): 🧠 New note · ⚡ Quick capture · ▦ Kanban board · 📁 Project hub
+**Left ribbon icons** (each can be hidden in settings): 🧠 New note · ⚡ Quick capture · ▦ Kanban board · 📁 Project hub · ✅ Habits
+
+**Features:** core is always on. Pick the optional ones in Settings → SB Autopilot → Features, or Ctrl+P → **Choose features…**
 
 **Capturing fast**
 - **⚡ Quick capture**: one line, saved without leaving your note. `t` task · `i` idea · `l` log line · `n` new note · `@Name …` waiting-for · nothing = Inbox. Shift+Enter saves and keeps the box open.
@@ -76,7 +84,7 @@ Decision, Skill log, Mental model, Cheatsheet, Code & tech and Quote are types t
 **Tasks** (plain checkboxes: they stay in the note where you wrote them)
 - A task belongs to a project if it's in the project note, has `[[Project]]` on the line, or sits in a note with `project:` (e.g. a meeting's action items).
 - **Add task**: goes into the project, or under `## 📋 Other tasks` in today's note.
-- **▦ Kanban board**: To do · Doing `[/]` · **Waiting for** (`- [ ] @Asha send deck`) · Done (last 14 days), or columns by project, plus a List view. Drag cards, or use **⋯ → Move to…**.
+- **▦ Kanban board**: To do · Doing `[/]` · **Waiting for** (`- [ ] @Asha send deck`) · Done (last 14 days), optional **Cancelled** (`[-]`, tick *Show cancelled*), or columns by project, plus a List view. Drag cards, or use **⋯ → Move to…**.
 - Review checklists (weekly "Clear the decks"), a project's **Definition of done**, and empty template boxes are *not* tasks. They stay off the board.
 - **Carry-over**: each morning, unfinished tasks from the last 7 daily notes move into today (`↪ from [[2026-11-06]]`). The old line becomes `[>]`. Undo is offered.
 - **Project hub**: Next action at the top, a List/Board toggle, Waiting for, and "Done when" (definition of done).

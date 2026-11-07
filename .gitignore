@@ -65,6 +65,13 @@
 #   !.obsidian/plugins/<plugin-folder-name>/data.json
 # Then: git add -f .obsidian/plugins/<plugin-folder-name>/data.json
 
+# --- Exception: SB Autopilot travels to every device (incl. phone) ----------
+# It isn't in the community store, so its files must sync: code (main.js,
+# manifest.json, styles.css) + settings (data.json). On the phone: pull, then
+# Settings → Community plugins → enable "SB Autopilot" (once per device).
+# Templater and Dataview: install them from the store on the phone.
+!.obsidian/plugins/sb-autopilot/
+
 # --- Exception: back up the customized Soft Paper theme -------------------
 # Same un-ignore chain as above, one level shorter since .obsidian/themes/
 # only needs one intermediate directory un-ignored, not two.
