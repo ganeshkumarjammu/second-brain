@@ -8,16 +8,16 @@ sleep:
 tags: [journal/daily]
 ---
 
-# <% tp.date.now("dddd, DD MMMM YYYY") %>
+### <% tp.date.now("dddd, DD MMMM YYYY") %>
 
 ← [[<% tp.date.now("YYYY-MM-DD", -1) %>]] | [[<% tp.date.now("gggg-[W]ww") %>|Week]] | [[<% tp.date.now("YYYY-MM-DD", 1) %>]] →
 
-## ☀️ Morning
+#### ☀️ Morning
 **Getting better at:** 
 **Today's practice:** 
 **If ___ happens, I will ___.** 
 
-## 🎯 Top 3
+#### 🎯 Top 3
 <!-- fills itself: add #focus to any task below -->
 ```tasks
 tags include #focus
@@ -26,34 +26,34 @@ hide backlink
 short mode
 ```
 
-## 📋 Tasks
+#### 📋 Tasks
 - [ ] 
 
-## 📓 Log
+#### 📓 Log
 - 
 
-## 💡 Ideas
+#### 💡 Ideas
 - #idea 
 
-## 🤔 Assumptions
+#### 🤔 Assumptions
 - I assumed: 
   - True? yes / no / test it: 
 
-## 🧱 Blockers / friction
+#### 🧱 Blockers / friction
 - Complaint: 
   - In my control? yes / no
   - If yes, one fix: 
 
-## 🌊 Lost equanimity
+#### 🌊 Lost equanimity
 - When / trigger: 
   - How I reacted: 
   - Next time I'll: 
 
-## 🛠 Problems solved
+#### 🛠 Problems solved
 - Problem: 
   - How I solved it: 
 
-## 🌙 Evening review
+#### 🌙 Evening review
 **Went well — why:** 
 **What pulled my focus away:** 
 lesson:: 
