@@ -35,16 +35,16 @@ Compounding assumes the input actually accumulates. Some domains genuinely rewar
 <!--SR:!2026-08-07,4,270-->
 - Contradicts:: [[ ]]
 <!--SR:!2026-08-07,4,270-->
-- Applies to:: [[02_Areas/Mind-and-Learning/Mind and Learning]]
+- Applies to:: [[Mind and Learning]]
 <!--SR:!2026-08-07,4,270-->
-- Applies to:: [[02_Areas/Health-and-Fitness/Health and Fitness]]
+- Applies to:: [[Health and Fitness]]
 <!--SR:!2026-08-07,4,270-->
-- Applies to:: [[02_Areas/Money-and-Finance/Money and Finance]]
+- Applies to:: [[Money and Finance]]
 <!--SR:!2026-08-07,4,270-->
 
 
 ## Source
-- [[08_Meta/MOCs/Thinking Toolkit]]
+- [[Thinking Toolkit]]
 
 ## Open questions
 - Where in my own life am I choosing intensity because it *feels* more virtuous than consistency?

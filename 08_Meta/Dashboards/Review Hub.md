@@ -48,7 +48,7 @@ LIMIT 12
 - [ ] Score all 10 Areas; pick the 2 weakest to focus on
 - [ ] Kill every project that hasn't moved in 6 weeks (be ruthless, archive don't delete)
 - [ ] Reread all Permanent notes created this quarter — merge duplicates, prune weak ones
-- [ ] Review [[08_Meta/Dashboards/Knowledge|Knowledge]] orphans and link them
+- [ ] Review [[Knowledge|Knowledge]] orphans and link them
 - [ ] Check decision logs whose "check back on" date has passed — was my reasoning good?
 - [ ] Update the 12-month vision in each Area note
 - [ ] Ask: *what am I still pretending not to know?*

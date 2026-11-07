@@ -15,7 +15,7 @@ Short answers. If an answer here contradicts a habit you've built, trust the hab
 
 **Ideas** → today's Daily Note, under `## 💡 Ideas & sparks`, written as `- #idea the thing`. The tag is what makes it findable later. If an idea survives the week and still feels good, promote it to its own file in `05_Notes/Fleeting`.
 
-**Random thoughts / anything else** → [[00_Inbox/Inbox|Inbox]]. That's the catch-all.
+**Random thoughts / anything else** → [[Inbox|Inbox]]. That's the catch-all.
 
 The rule: **if you can't file it in 5 seconds, it goes in the Inbox.** You don't decide what a thought *is* at the moment you have it — you just dump it. Sorting happens once a week, not continuously. An inbox you hesitate over is an inbox you stop using.
 
@@ -73,7 +73,7 @@ If you haven't actually decided to do it → leave it as an idea, or park it in 
 
 Tasks and ideas behave differently here, because they're written differently.
 
-Both are already wired up on [[08_Meta/Dashboards/Home|🏠 Home]]. Open it and scroll.
+Both are already wired up on [[Home|🏠 Home]]. Open it and scroll.
 
 ### Tasks
 Tasks are checkboxes (`- [ ]`), and Dataview finds checkboxes anywhere in the vault. Home has two task sections:
@@ -143,4 +143,4 @@ git commit -m "Sync <plugin> data across devices"
 
 ---
 
-**Related:** [[START-HERE]] · [[00_Inbox/Inbox|📥 Inbox]] · [[08_Meta/Dashboards/Home|🏠 Home]] · [[08_Meta/First 30 Days|🗓 First 30 Days]]
+**Related:** [[START-HERE]] · [[Inbox|📥 Inbox]] · [[Home|🏠 Home]] · [[First 30 Days|🗓 First 30 Days]]

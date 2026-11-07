@@ -42,9 +42,9 @@ review-cadence: monthly
 | Topics taught to others |  | 1 |
 
 ## 🧠 Knowledge
-- [[08_Meta/Dashboards/Knowledge|Knowledge dashboard]]
-- [[08_Meta/MOCs/How to Take Smart Notes]]
-- [[08_Meta/MOCs/Thinking Toolkit]]
+- [[Knowledge|Knowledge dashboard]]
+- [[How to Take Smart Notes]]
+- [[Thinking Toolkit]]
 
 ## ❓ What I'm actively curious about
 ```dataview

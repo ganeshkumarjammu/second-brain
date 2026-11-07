@@ -63,4 +63,4 @@ It's not the note count. It's these, measured monthly:
 - Did I *use* a note I wrote months ago?
 - Did I produce something someone else found valuable?
 
-If those trend up, the system works. If only the note count trends up, you're hoarding — go back to [[08_Meta/MOCs/How to Take Smart Notes]].
+If those trend up, the system works. If only the note count trends up, you're hoarding — go back to [[How to Take Smart Notes]].

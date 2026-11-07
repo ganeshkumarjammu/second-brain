@@ -57,5 +57,5 @@ If nothing — either you don't understand it yet, or you don't actually need it
 Do layers 1–2 while reading. Layers 3–5 only when you return to the note for a reason. Never do all five up front — that's busywork.
 
 ## Related
-- [[08_Meta/MOCs/Thinking Toolkit]]
+- [[Thinking Toolkit]]
 - [[START-HERE]]

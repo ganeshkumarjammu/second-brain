@@ -147,5 +147,5 @@ Don't invent a new tag when a link would do.
 
 ---
 
-→ Next stop: [[08_Meta/Dashboards/Home|🏠 Home Dashboard]]
-→ Stuck on where something goes? [[08_Meta/FAQ|❓ FAQ]]
+→ Next stop: [[Home|🏠 Home Dashboard]]
+→ Stuck on where something goes? [[FAQ|❓ FAQ]]

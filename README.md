@@ -8,7 +8,7 @@ It ships with 15 templates, 5 Dataview dashboards, 3 MOCs, 10 pre-built life Are
 vocabulary that's deliberately small. Everything is plain Markdown — no lock-in, no database.
 
 > New here? The vault explains itself: open [`START-HERE.md`](START-HERE.md) first, then
-> [`08_Meta/First 30 Days.md`](08_Meta/First%2030%20Days.md).
+> [`08_Meta/First 30 Days.md`](First%2030%20Days.md).
 
 ---
 
@@ -88,7 +88,7 @@ file creation**. (Without that last toggle, templates insert literal `<% %>` tex
 
 ### 5. Make Home your landing page
 
-Open [`08_Meta/Dashboards/Home.md`](08_Meta/Dashboards/Home.md), right-click the tab → **Pin**.
+Open [`08_Meta/Dashboards/Home.md`](Home.md), right-click the tab → **Pin**.
 (Or install the Homepage plugin and point it there.)
 
 ---

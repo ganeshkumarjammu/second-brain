@@ -12,7 +12,7 @@ cssclasses: [dashboard]
 ## 🚦 Quick capture
 ```button
 ```
-- ➕ [[00_Inbox/Inbox|Open Inbox]]
+- ➕ [[Inbox|Open Inbox]]
 - 📅 Today's note → `Ctrl+P` "Daily notes: Open today"
 
 ---
@@ -111,4 +111,4 @@ LIMIT 15
 
 ---
 
-**Jump to:** [[START-HERE]] · [[08_Meta/FAQ|❓ FAQ]] · [[08_Meta/Dashboards/Review Hub|🔁 Reviews]] · [[08_Meta/Dashboards/Knowledge|🧠 Knowledge]] · [[08_Meta/Dashboards/Reading|📚 Reading]] · [[08_Meta/MOCs/Master MOC|🗺 Master MOC]]
+**Jump to:** [[START-HERE]] · [[FAQ|❓ FAQ]] · [[Review Hub|🔁 Reviews]] · [[Knowledge|🧠 Knowledge]] · [[Reading|📚 Reading]] · [[Master MOC|🗺 Master MOC]]
