@@ -200,6 +200,288 @@
   flex: 1 1 140px;
   min-width: 0;
 }
+/* ---------- New note dialog ---------- */
+.sba-create {
+  --sba-chip-h: 30px;
+  --sba-group-col: 7.5rem;
+}
+
+.sba-create-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-4-5);
+}
+
+.sba-field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-4-1);
+  min-width: 0;
+}
+
+.sba-field.is-wide {
+  grid-column: 1 / -1;
+}
+
+.sba-field-label {
+  font-size: var(--font-ui-small);
+  font-weight: var(--font-semibold);
+  color: var(--text-normal);
+}
+
+.sba-field-help {
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+}
+
+.sba-create .sba-input,
+.sba-create .sba-select {
+  width: 100%;
+}
+
+.sba-create .sba-select {
+  background-color: var(--interactive-normal);
+  color: var(--text-normal);
+}
+
+.sba-create .sba-title-input {
+  font-size: var(--font-ui-large);
+  font-weight: var(--font-medium);
+  height: auto;
+  min-height: 44px;
+  padding: var(--size-4-2) var(--size-4-3);
+}
+
+/* Type chips */
+.sba-kinds {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-4-2);
+}
+
+.sba-kinds > legend {
+  padding: 0;
+  margin-bottom: var(--size-4-2);
+}
+
+.sba-kind-row {
+  display: grid;
+  grid-template-columns: var(--sba-group-col) minmax(0, 1fr);
+  gap: var(--size-4-1) var(--size-4-3);
+  align-items: start;
+}
+
+.sba-kind-group {
+  display: flex;
+  align-items: center;
+  min-height: var(--sba-chip-h);
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+}
+
+.sba-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--size-4-2);
+}
+
+.sba-chip {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--sba-chip-h);
+  padding: 0 var(--size-4-3);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-l);
+  background: var(--background-primary);
+  color: var(--text-normal);
+  font-size: var(--font-ui-small);
+  cursor: pointer;
+  user-select: none;
+  touch-action: manipulation;
+}
+
+.sba-chip:hover {
+  background: var(--background-modifier-hover);
+  border-color: var(--background-modifier-border-hover);
+}
+
+/* The real radio covers the chip: native click, arrow keys and screen-reader semantics. */
+.sba-create .sba-chip-input {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.sba-chip:has(.sba-chip-input:checked) {
+  background: var(--interactive-accent);
+  border-color: var(--interactive-accent);
+  color: var(--text-on-accent);
+}
+
+.sba-chip-sub {
+  margin-left: var(--size-4-1);
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+}
+
+.sba-chip:has(.sba-chip-input:checked) .sba-chip-sub {
+  color: inherit;
+  opacity: 0.85;
+}
+
+.sba-kind-hint strong {
+  color: var(--text-normal);
+}
+
+.sba-existing-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--size-2-2) var(--size-4-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sba-chip:has(.sba-chip-input:focus-visible) {
+  outline: 2px solid var(--interactive-accent);
+  outline-offset: 2px;
+}
+
+.sba-kind-foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--size-4-1) var(--size-4-3);
+  margin-top: var(--size-4-1);
+  margin-left: calc(var(--sba-group-col) + var(--size-4-3));
+}
+
+.sba-kind-hint {
+  flex: 1 1 16rem;
+  margin: 0;
+  font-size: var(--font-ui-small);
+  color: var(--text-muted);
+}
+
+.sba-create .sba-text-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--size-2-2);
+  height: auto;
+  padding: var(--size-2-1) 0;
+  background: none;
+  border: none;
+  box-shadow: none;
+  color: var(--text-accent);
+  font-size: var(--font-ui-small);
+  cursor: pointer;
+}
+
+.sba-create .sba-text-btn:hover {
+  color: var(--text-accent-hover);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.sba-text-btn-icon {
+  display: inline-flex;
+}
+
+.sba-text-btn-icon svg {
+  width: var(--icon-xs);
+  height: var(--icon-xs);
+}
+
+/* Fields for the chosen type */
+.sba-field-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--size-4-3) var(--size-4-4);
+}
+
+.sba-field-grid:empty {
+  display: none;
+}
+
+/* Where it will be saved */
+.sba-dest {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--size-4-2);
+  padding: var(--size-4-2) var(--size-4-3);
+  border-radius: var(--radius-m);
+  background: var(--background-secondary);
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+  overflow-wrap: anywhere;
+}
+
+.sba-dest code {
+  padding: 0;
+  background: none;
+  color: var(--text-normal);
+  font-family: var(--font-monospace);
+}
+
+.sba-dest-icon {
+  display: inline-flex;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.sba-dest-icon svg {
+  width: var(--icon-s);
+  height: var(--icon-s);
+}
+
+.sba-dest[data-state="exists"] .sba-dest-icon {
+  color: var(--text-accent);
+}
+
+.sba-submit-error:empty {
+  display: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .sba-chip {
+    transition: background-color 120ms ease-out, border-color 120ms ease-out, color 120ms ease-out;
+  }
+}
+
+@media (pointer: coarse) {
+  .sba-create {
+    --sba-chip-h: 44px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sba-kind-row {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .sba-kind-group {
+    min-height: 0;
+  }
+
+  .sba-kind-foot {
+    margin-left: 0;
+  }
+
+  .sba-field-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
 /* ---------- features chooser ---------- */
 .sba-feature-list {
   list-style: none;
