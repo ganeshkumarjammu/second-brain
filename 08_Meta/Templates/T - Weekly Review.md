@@ -26,6 +26,25 @@ tags: [journal/weekly]
 ## 📚 What I learned
 -
 
+## 🔁 From my daily notes this week
+### Lessons & things to remember
+```dataview
+TABLE WITHOUT ID file.link AS "Day", lesson AS "Lesson", remember AS "Remember"
+FROM "01_Journal/Daily"
+WHERE week = this.week AND (lesson OR remember)
+SORT file.name ASC
+```
+
+### Friction, lost equanimity & problems solved
+```dataview
+TABLE WITHOUT ID meta(L.section).subpath AS "Section", L.text AS "What", L.children.text AS "Details", file.link AS "Day"
+FROM "01_Journal/Daily"
+WHERE week = this.week
+FLATTEN file.lists AS L
+WHERE !L.parent AND regexmatch(".*: *[^ ].*", L.text) AND (contains(meta(L.section).subpath, "Blockers") OR contains(meta(L.section).subpath, "Lost equanimity") OR contains(meta(L.section).subpath, "Problems solved"))
+SORT meta(L.section).subpath ASC, file.name ASC
+```
+
 ## 🔗 Notes created this week
 ```dataview
 LIST

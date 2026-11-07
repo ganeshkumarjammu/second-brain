@@ -4,6 +4,7 @@ date: <% tp.date.now("YYYY-MM-DD") %>
 week: <% tp.date.now("gggg-[W]ww") %>
 mood:
 energy:
+sleep:
 tags: [journal/daily]
 ---
 
@@ -11,35 +12,51 @@ tags: [journal/daily]
 
 ← [[<% tp.date.now("YYYY-MM-DD", -1) %>]] | [[<% tp.date.now("gggg-[W]ww") %>|Week]] | [[<% tp.date.now("YYYY-MM-DD", 1) %>]] →
 
-## 🎯 Top 3 outcomes today
-- [ ]
-- [ ]
-- [ ]
+## ☀️ Morning
+**Getting better at:** 
+**Today's practice:** 
+**If ___ happens, I will ___.** 
 
-## 📋 Other tasks
-- [ ]
+## 🎯 Top 3
+<!-- fills itself: add #focus to any task below -->
+```tasks
+tags include #focus
+path includes {{query.file.path}}
+hide backlink
+short mode
+```
+
+## 📋 Tasks
+- [ ] 
 
 ## 📓 Log
-<!-- timestamped as the day happens -->
--
+- 
 
-## 💡 Ideas & sparks
-<!-- tag every idea #idea so it shows up on the Home dashboard. promote the good ones to 05_Notes/Fleeting -->
+## 💡 Ideas
 - #idea 
 
-## 📚 Learned today
-<!-- one concrete thing. if blank, the day taught you nothing — fix that tomorrow -->
--
+## 🤔 Assumptions
+- I assumed: 
+  - True? yes / no / test it: 
 
 ## 🧱 Blockers / friction
--
+- Complaint: 
+  - In my control? yes / no
+  - If yes, one fix: 
 
-## 🙏 Grateful for
--
+## 🌊 Lost equanimity
+- When / trigger: 
+  - How I reacted: 
+  - Next time I'll: 
 
-## 🌙 Reflection
-**Win of the day:**
-**What drained me:**
-**One thing to do differently tomorrow:**
+## 🛠 Problems solved
+- Problem: 
+  - How I solved it: 
 
-**Score /10:**
+## 🌙 Evening review
+**Went well — why:** 
+**What pulled my focus away:** 
+lesson:: 
+remember:: 
+**1% better tomorrow:** 
+**Grateful for:** 

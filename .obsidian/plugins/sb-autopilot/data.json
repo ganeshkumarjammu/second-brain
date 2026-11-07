@@ -105,127 +105,27 @@
   "ribbon": {
     "newNote": true,
     "quickCapture": true,
-    "board": true,
-    "projectHub": true,
-    "habits": true
+    "timeLog": true
   },
   "features": {
     "quickCapture": true,
-    "board": true,
-    "projectHub": true,
-    "habits": true,
-    "habitsBridge": true
+    "timeLog": true
   },
   "onboarded": true,
-  "habits": [
-    {
-      "key": "sleep_by_11",
-      "label": "Sleep by 11pm",
-      "type": "check",
-      "unit": "",
-      "area": "Health and Fitness",
-      "goal": {
-        "per": "day",
-        "min": 1
-      }
-    },
-    {
-      "key": "strength",
-      "label": "Strength training",
-      "type": "check",
-      "unit": "",
-      "area": "Health and Fitness",
-      "goal": {
-        "per": "week",
-        "times": 3
-      }
-    },
-    {
-      "key": "steps",
-      "label": "Steps",
-      "type": "number",
-      "unit": "steps",
-      "area": "Health and Fitness",
-      "goal": {
-        "per": "day",
-        "min": 8000
-      }
-    },
-    {
-      "key": "walk_km",
-      "label": "Walking",
-      "type": "number",
-      "unit": "km",
-      "area": "Health and Fitness"
-    },
-    {
-      "key": "water_l",
-      "label": "Water",
-      "type": "number",
-      "unit": "L",
-      "area": "Health and Fitness",
-      "goal": {
-        "per": "day",
-        "min": 3
-      }
-    },
-    {
-      "key": "reading_min",
-      "label": "Reading",
-      "type": "number",
-      "unit": "min",
-      "area": "Mind and Learning",
-      "goal": {
-        "per": "day",
-        "min": 30
-      }
-    },
-    {
-      "key": "permanent_note",
-      "label": "1 permanent note",
-      "type": "check",
-      "unit": "",
-      "area": "Mind and Learning",
-      "goal": {
-        "per": "day",
-        "min": 1
-      },
-      "autoFromKind": "permanent"
-    },
-    {
-      "key": "mood",
-      "label": "Mood",
-      "type": "scale",
-      "unit": "/5",
-      "area": "Philosophy and Self"
-    },
-    {
-      "key": "energy",
-      "label": "Energy",
-      "type": "scale",
-      "unit": "/5",
-      "area": "Health and Fitness"
-    }
-  ],
-  "habitsImported": false,
-  "walkSpeedKmh": 5,
-  "doneDays": 14,
+  "habitTrackerPath": "08_Meta/Dashboards/Habit Tracker.md",
   "carryOver": true,
   "carryOverDays": 7,
-  "lastCarryOver": "2026-11-07",
   "startupDelayMs": 0,
   "followFolderRenames": true,
   "prepareNewNotes": true,
-  "captureDefault": "note",
   "templatesDetected": true,
-  "openDailyOnStartup": true,
+  "openDailyOnStartup": false,
   "createPeriodicOnStartup": true,
   "logCreationsInDaily": true,
   "dailyTasksHeading": "Tasks, Other tasks",
   "dailyLogHeading": "Log",
   "askTypeOnNewNote": true,
   "autoMove": "everywhere",
-  "boardGroupBy": "status",
   "createMissingPeople": true,
   "staleInboxDays": 7,
   "taskBackend": "inline",

@@ -1,9 +1,9 @@
 {
   "id": "sb-autopilot",
   "name": "SB Autopilot",
-  "version": "0.8.0",
+  "version": "0.9.1",
   "minAppVersion": "1.5.7",
-  "description": "Creates, files and links your notes automatically (PARA + Zettelkasten): journal, meetings, projects, areas, books, people. Optional features: quick capture, Kanban board, project hub, habits & walking tracker.",
+  "description": "Creates, files and links your notes automatically (PARA + Zettelkasten): journal, meetings, projects, areas, books, people. Optional: quick capture, time log (start/stop activities with durations). Habit Tracker page from your daily notes.",
   "author": "OmKarya",
   "isDesktopOnly": false
 }
